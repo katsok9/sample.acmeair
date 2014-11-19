@@ -29,7 +29,7 @@ public class AcmeAirTest {
 	private HttpClient client;
 
 	static {
-		String httpPort = System.getProperty("httpPort", "9081");
+		String httpPort = System.getProperty("httpPort");
 		baseURL = "http://127.0.0.1:" + httpPort + "/acmeair";
 	}
 
