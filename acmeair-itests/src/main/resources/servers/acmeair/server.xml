@@ -11,7 +11,7 @@
     
     <httpEndpoint id="defaultHttpEndpoint"
                   host="*"
-                  httpPort="9081" >
+                  httpPort="${httpPort}" >
       <tcpOptions soReuseAddr="true"/>
     </httpEndpoint>
 
