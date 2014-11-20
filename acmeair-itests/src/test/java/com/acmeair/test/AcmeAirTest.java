@@ -43,6 +43,9 @@ public class AcmeAirTest {
 			System.out.println("Path:" + method.getPath());
 			System.out.println("query:" + method.getQueryString());
 			System.out.println("URI:" + method.getURI());
+			System.out.println("sleeping");
+			Thread.sleep(30000);
+			System.out.println("wakeing");
 		} 
 		try {
 			int statusCode = client.executeMethod(method);
