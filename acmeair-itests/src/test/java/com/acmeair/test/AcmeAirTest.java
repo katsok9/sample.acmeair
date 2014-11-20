@@ -39,6 +39,7 @@ public class AcmeAirTest {
 		HttpClient client = new HttpClient();
 		GetMethod method = new GetMethod(baseURL + "/rest/api/loader/loadSmall");
 		if (method != null) {
+			System.out.println("base:" + baseURL);
 			System.out.println("METHOD:" + method.getName());
 			System.out.println("Path:" + method.getPath());
 			System.out.println("query:" + method.getQueryString());
