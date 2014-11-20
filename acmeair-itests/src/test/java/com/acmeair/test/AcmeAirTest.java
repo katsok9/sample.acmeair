@@ -31,7 +31,7 @@ public class AcmeAirTest {
 	static {
 		String httpPort = System.getProperty("httpPort","9081");
 //		String httpPort = "9081";
-		baseURL = "http://localhost:" + httpPort + "/acmeair";
+		baseURL = "http://172.28.128.3:" + httpPort + "/acmeair";
 	}
 
 	@BeforeClass
