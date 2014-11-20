@@ -44,7 +44,7 @@ public class AcmeAirTest {
 			System.out.println("query:" + method.getQueryString());
 			System.out.println("URI:" + method.getURI());
 			System.out.println("sleeping");
-			Thread.sleep(30000);
+			Thread.sleep(60000);
 			System.out.println("wakeing");
 		} 
 		try {
