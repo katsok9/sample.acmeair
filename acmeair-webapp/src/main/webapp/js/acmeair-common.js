@@ -87,7 +87,7 @@ function logout() {
 			}
 			dojo.cookie("loggedinuser", null, {expires: -1});
 			updateLoggedInUserWelcome();
-			window.location='index.html';
+                        window.location='index.html'; 
 		},
 		error: function(response, ioArgs) {
 			alert('error logging out, response: ' + response);
