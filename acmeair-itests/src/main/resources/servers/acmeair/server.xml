@@ -29,7 +29,7 @@
 
 	<applicationMonitor updateTrigger="mbean" />
 
-	<webApplication id="acmeair" name="acmeair" type="war"
+	<application id="acmeair" name="acmeair" type="war"
 		location="acmeair.war" />
 
 </server>

@@ -201,7 +201,7 @@
 						</executions>
 						<configuration>
 							<installDirectory>${wlpInstallDir}</installDirectory>
-							<userDirectory>${project.build.directory}/usr</userDirectory>
+							<userDirectory>${project.build.directory}/usr</userDirectory>							
 							<serverName>acmeair</serverName>
 						</configuration>
 					</plugin>
